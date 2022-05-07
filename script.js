@@ -298,4 +298,4 @@ function playAi() {
 document.querySelectorAll('.cell').forEach(cell => cell.addEventListener('click', handleCellClick));
 document.querySelector('.playHuman').addEventListener('click', playHuman);
 document.querySelector('.playAi').addEventListener('click', playAi);
-console.log('v 0.06')
+

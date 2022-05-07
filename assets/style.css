@@ -10,6 +10,34 @@ align-items: center;
 background-repeat:no-repeat
 
 }
+.gameScores{
+  display: flex;
+  flex-flow: row nowrap;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  gap:2rem;
+
+  
+}
+.xScore{
+background-color: blue;
+width: 5rem;
+padding: 1rem;
+}
+.drawScore{
+  background-color: orange;
+  padding: 1.60rem;
+
+  
+  
+}
+.oScore{
+  background-color: red;
+  width: 5rem;
+  padding:1rem
+
+}
+
 header {
   position: relative;
   background-color: black;
