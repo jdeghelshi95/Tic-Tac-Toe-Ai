@@ -1,2 +1,2 @@
-# project1
-Tic-Tac-Toe Game
+# project1 - Tic-Tac-Toe Game
+
