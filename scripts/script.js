@@ -122,7 +122,7 @@ function isTerminal(board) {
     return getWinner(board) != ' ' || isFilled(board);
 
 }
-
+// function that stores ai movement
 function aiMove() {
     let value = -10;
     let best = [];
@@ -143,6 +143,7 @@ function aiMove() {
 
     return best;
 }
+// minimax algorithim that runs ai desicions
 function minimax(board, depth, maximizing) {
     
     let winner = getWinner(board);
