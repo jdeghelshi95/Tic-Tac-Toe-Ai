@@ -277,7 +277,7 @@ function handleRestartGame() {
 
 function playHuman() {
     if(inProgress()) {
-        if(!confirm("Game in progress do you want to cancel?")) {
+        if(!confirm("Game in progress do you want to Reset?")) {
             return;
         }
     }
@@ -287,7 +287,7 @@ function playHuman() {
 
 function playAi() {
     if(inProgress()) {
-        if(!confirm("Game in progress do you want to cancel?")) {
+        if(!confirm("Game in progress do you want to Reset?")) {
             return;
         }
     }
