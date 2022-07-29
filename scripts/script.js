@@ -6,7 +6,7 @@ let currentPlayer = "X";
 let xwins = 0;
 let owins = 0;
 let draws = 0;
-
+// function that gets is skeleton of tic-tac-toe game
 const drawMessage = () => { 
     draws++;
     document.getElementById('draws').innerHTML = draws;
@@ -30,7 +30,7 @@ const currentPlayerTurn = () => {
 
    return  `It's ${currentPlayer}'s turn`;
 }
-
+// tracks winner
 function getWinner(board) {
     if(board[0][0] != ' ') {
         if(board[0][0] == board[1][1] && board[1][1] == board[2][2]) {
@@ -61,7 +61,7 @@ function getWinner(board) {
 
     return ' ';
 }
-
+// tester i used to make sure inputs are working properlyw
 function test() {
     if(getWinner(board) != ' ') {
         console.log('Wrong');

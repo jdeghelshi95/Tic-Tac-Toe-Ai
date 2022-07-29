@@ -37,7 +37,7 @@ padding: 1rem;
   padding:1rem
 
 }
-
+/* contains formating settings to contain a video in banner */
 header {
   position: relative;
   background-color: black;
@@ -93,6 +93,8 @@ header .overlay {
   font-size: 60px;
 }
 
+/* creates grid layout and formating settings */
+
 .gameWindow{
   width: 40vw;
   height: 40vw;
@@ -107,7 +109,7 @@ header .overlay {
 
 
 }
-
+/* controls behavior of cells */
 .cell{
   font-family: "phosphate";
   width: 10vw;
@@ -122,14 +124,14 @@ header .overlay {
   justify-content: center;
   color: white;
   text-shadow: 1px .1px;
-  background-image: url(https://tinyurl.com/maintile);
+  background-image: url("/visuals//tileBg.jpeg");
   background-size: cover;
   margin: 5px;
 
 }
 
 .cell:hover{
-  background-image:url(https://tinyurl.com/hovertile);
+  background-image:url("/visuals//hoverImage.jpeg");
   box-shadow: 5px 5px lightblue;
   border: 4px #e1b515;
   
@@ -154,6 +156,7 @@ background-color: lightcoral;
 box-shadow: 5px 5px lightskyblue;
 color: lightskyblue;
 }
+
 
 .gamestatus{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
